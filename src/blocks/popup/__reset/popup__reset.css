@@ -1,0 +1,23 @@
+.popup__reset {
+  background-image: url(../../../images/close-icon.svg);
+  width: 41px;
+  height: 41px;
+  background-size: contain;
+  padding: 0;
+  border: none;
+  background-color: rgba(0, 0, 0, .0);
+  outline: 0;
+  position: absolute;
+  top: -38px;
+  right: -38px;
+}
+
+@media screen and (min-width: 920px) {
+  .popup__reset:hover {
+    opacity: 0.6;
+  }
+
+  .popup__reset {
+    cursor: pointer;
+  }
+}

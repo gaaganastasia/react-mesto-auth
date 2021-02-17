@@ -1,0 +1,21 @@
+.info {
+  display: grid;
+}
+
+@media screen and (max-width: 920px) {
+  .info {
+    grid-template-columns: 1fr 18px;
+    column-gap: 5px;
+    row-gap: 14px;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (min-width: 920px) {
+  .info {
+    grid-template-columns: 1fr 24px;
+    column-gap: 17px;
+    row-gap: 16px;
+    margin-left: 30px;
+  }
+}

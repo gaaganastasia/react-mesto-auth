@@ -1,0 +1,26 @@
+.info__subtitle {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 0;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+@media screen and (max-width: 920px) {
+  .info__subtitle {
+    max-width: 220px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 17px;
+  }
+}
+
+@media screen and (min-width: 920px) {
+  .info__subtitle {
+    max-width: 318px;
+    font-size: 18px;
+    line-height: 22px;
+    justify-self: start;
+  }
+}

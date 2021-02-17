@@ -1,0 +1,31 @@
+.popup-form__input-error {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  display: block;
+  color: red;
+  margin: 0;
+  position: absolute;
+  opacity: 0;
+  visibility: hidden;
+}
+
+@media screen and (max-width: 530px){
+    .popup-form__input-error   {
+      width: 210px;
+    }
+  }
+  
+  @media screen and (max-width: 900px) and (min-width: 530px){
+    .popup-form__input-error   {
+      width: 83%;
+    }
+  }
+  
+  @media screen and (min-width: 900px) {
+    .popup-form__input-error  {
+      width: 358px;
+    } 
+  }

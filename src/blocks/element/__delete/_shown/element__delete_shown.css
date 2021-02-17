@@ -1,0 +1,13 @@
+.element__delete_shown {
+  opacity: 1;
+}
+
+@media screen and (min-width: 1024px) {
+  .element__delete_shown {
+    cursor: pointer;
+  }
+  
+  .element__delete_shown:hover {
+    opacity: 0.6;
+  }
+}

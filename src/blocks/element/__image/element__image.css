@@ -1,0 +1,12 @@
+.element__image {
+  width: 282px;
+  height: 282px;
+  border-radius: 10px 10px 0 0;
+  object-fit: cover;
+}
+
+@media screen and (min-width: 1024px) {
+  .element__image {
+    cursor: pointer;
+  }
+}

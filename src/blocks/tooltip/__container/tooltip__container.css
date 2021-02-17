@@ -1,0 +1,16 @@
+.tooltip__container {
+  background-color: #ffffff;
+  width: 430px;
+  padding: 60px 0;
+  color: #000000;
+  position: fixed;
+  border-radius: 10px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+}

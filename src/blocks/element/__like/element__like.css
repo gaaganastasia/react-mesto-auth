@@ -1,0 +1,19 @@
+.element__like {
+  background-color: #ffffff;
+  background-image: url('../../../images/like-icon.svg');
+  background-repeat: no-repeat;
+  height: 18px;
+  width: 21px;
+  border: none;
+  outline: 0;
+}
+
+@media screen and (min-width: 1024px) {
+  .element__like {
+    cursor: pointer;
+  }
+  
+  .element__like:hover {
+    opacity: 0.6;
+  }
+}

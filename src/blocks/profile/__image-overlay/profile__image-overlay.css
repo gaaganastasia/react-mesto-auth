@@ -1,0 +1,25 @@
+.profile__image-overlay {
+  width: 101%;
+  height: 101%;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 50%;
+  top: -53%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: relative;
+  background-image: url(../../../images/profile-edit.svg);
+  background-position: center;
+  background-size: 26px;
+  background-repeat: no-repeat;
+  opacity: 0;
+}
+
+.profile__image-overlay:hover {
+  opacity: 1;
+}
+
+@media screen and (min-width: 920px) {
+  .profile__image-overlay:hover {
+    cursor: pointer;
+  }
+}
